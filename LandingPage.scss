@@ -24,6 +24,14 @@ body {
     padding-bottom: 125px;
 }
 
+.container:nth-of-type(4) {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -183,4 +191,47 @@ header {
         color: #1F2937;
         font-weight: bolder;
     }
+}
+
+.endingBox {
+    border: 2px solid #0275d8;
+    background-color: #0275d8;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .endingBoxText{
+        div{
+            color: white;
+            font-size: 18px;
+            &:first-child{
+                color: white;
+                font-weight: bold;
+            }
+        
+        }
+    }
+    #endingSignUpBtn{
+        background-color: #0275d8;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid white;
+        width: 100px;
+        height: 30px;
+        
+        font-size: 1em;
+        &:hover {
+            cursor: pointer;
+        }
+    
+    }
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
 }
