@@ -2,9 +2,24 @@ body {
   background-color: #1F2937;
 }
 
-.container {
+.container:first-of-type {
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 100px;
+}
+
+.container:nth-of-type(2) {
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.container:nth-of-type(3) {
+  background-color: #E5E7EB;
+  padding-top: 125px;
+  padding-bottom: 125px;
 }
 
 header {
@@ -95,6 +110,47 @@ header .headerLinks span a:active {
 .hero .heroRight div:first-child img {
   width: 500px;
   height: 200px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information .informationText {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  padding-bottom: 50px;
+}
+.information .cards {
+  display: flex;
+  flex-direction: row;
+}
+.information .cards .card .cardImage {
+  border: 2px solid blue;
+  border-radius: 10px;
+  width: 175px;
+  height: 175px;
+}
+.quote {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.quote .quoteText {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  color: #1F2937;
+}
+.quote .quoteAuthor {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bolder;
 }
 
 /*# sourceMappingURL=LandingPage.css.map */
