@@ -1,3 +1,5 @@
+$heroImageWidth: 500px;
+$heroImageHeight: 200px;
 body {
     background-color: #1F2937;
 }
@@ -64,24 +66,53 @@ header {
 }
 
 .hero {
+    display: flex;
+    align-content: space-around;
 
     .heroLeft {
-
+        margin-right: 2%;
         .heroMainText {
             font-size: 48px;
             font-weight: bolder;
             color: #F9FAF8;
+            margin-bottom: 2%;
         }
         .heroSecondaryText {
             font-size: 18px;
             color: #E5E7EB;
+            margin-bottom: 2%;
         }
         #heroSignUpBtn {
+            background-color:#0275d8;
+            color: white;
+            border-radius: 5px;
+            width: 100px;
+            height: 30px;
+            border-style: none;
+            font-size: 1em;
+            margin-bottom: 2%;
 
+            &:hover {
+                filter: contrast(2.5);
+                cursor: pointer;
+            }
         }
     }
 
     .heroRight {
+        div {
+            &:first-child{
+                width: $heroImageWidth;
+                height: $heroImageHeight;
+                background-color: gray;
+                margin-left: 2%;
+
+                img {
+                    width: $heroImageWidth;
+                    height: $heroImageHeight;
+                }
+            }
+        }
 
     }
 }
