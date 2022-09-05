@@ -1,0 +1,67 @@
+body {
+  background-color: #1F2937;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding-top: 20px;
+}
+header .headerLogo {
+  display: flex;
+}
+header .headerLogo:first-child {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+header .headerLinks {
+  display: flex;
+}
+header .headerLinks span {
+  padding-left: 2%;
+  padding-right: 2%;
+  white-space: nowrap;
+}
+header .headerLinks span a {
+  color: white;
+  text-decoration: none;
+  /* Unvisited Links*/
+  /* Visited Links */
+  /* Hovered Links */
+  /* Pressed Links */
+}
+header .headerLinks span a:link {
+  color: white;
+  text-decoration: none;
+}
+header .headerLinks span a:visited {
+  color: white;
+  text-decoration: none;
+}
+header .headerLinks span a:hover {
+  color: white;
+  text-decoration: underline;
+}
+header .headerLinks span a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.hero .heroLeft .heroMainText {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+.hero .heroLeft .heroSecondaryText {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+/*# sourceMappingURL=LandingPage.css.map */

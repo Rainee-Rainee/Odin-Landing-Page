@@ -1,0 +1,87 @@
+body {
+    background-color: #1F2937;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    .headerLogo {
+        display: flex;  
+        &:first-child {
+            color: #F9FAF8;
+            font-size: 24px;
+            font-weight: bold;
+            
+        }
+    }
+
+    .headerLinks {
+        display: flex;
+
+        span {
+            padding-left: 2%;
+            padding-right: 2%;
+            white-space: nowrap;
+            
+            a {
+                color: white;
+                text-decoration: none;
+
+                /* Unvisited Links*/
+                &:link {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                /* Visited Links */
+                &:visited {
+                    color: white;
+                    text-decoration: none;
+                }
+
+                /* Hovered Links */
+                &:hover {
+                    color: white;
+                    text-decoration: underline;
+                }
+
+                /* Pressed Links */
+                &:active {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+            
+        }
+    }
+}
+
+.hero {
+
+    .heroLeft {
+
+        .heroMainText {
+            font-size: 48px;
+            font-weight: bolder;
+            color: #F9FAF8;
+        }
+        .heroSecondaryText {
+            font-size: 18px;
+            color: #E5E7EB;
+        }
+        #heroSignUpBtn {
+
+        }
+    }
+
+    .heroRight {
+
+    }
+}
